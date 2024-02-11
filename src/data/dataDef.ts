@@ -93,14 +93,6 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
-/**
- * Testimonial section
- */
-export interface TestimonialSection {
-  imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
-}
-
 export interface Testimonial {
   image?: string;
   name: string;
